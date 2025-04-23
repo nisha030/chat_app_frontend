@@ -1,0 +1,517 @@
+
+/* Default styles */
+:root {
+  /* Default theme (light) */
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --button-bg: #007bff;
+  --button-text: #ffffff;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --bg-color: #1e1e1e;
+  --text-color: #ffffff;
+  --button-bg: #333333;
+  --button-text: #ffffff;
+}
+
+/* Cupcake */
+[data-theme="cupcake"] {
+  --bg-color: #fce8e6;
+  --text-color: #3b2f2f;
+  --button-bg: #f8b195;
+  --button-text: #ffffff;
+}
+
+/* Bumblebee */
+[data-theme="bumblebee"] {
+  --bg-color: #fef3c7;
+  --text-color: #222222;
+  --button-bg: #facc15;
+  --button-text: #222222;
+}
+
+/* Emerald */
+[data-theme="emerald"] {
+  --bg-color: #d1fae5;
+  --text-color: #065f46;
+  --button-bg: #10b981;
+  --button-text: #ffffff;
+}
+
+/* Corporate */
+[data-theme="corporate"] {
+  --bg-color: #e5e7eb;
+  --text-color: #1e3a8a;
+  --button-bg: #2563eb;
+  --button-text: #ffffff;
+}
+
+/* Synthwave */
+[data-theme="synthwave"] {
+  --bg-color: purple;
+  --text-color: hotpink;
+  --button-bg: #ff0077;
+  --button-text: #ffffff;
+}
+
+/* Retro */
+[data-theme="retro"] {
+  --bg-color: #f4d06f;
+  --text-color: #4b2e39;
+  --button-bg: #8c5383;
+  --button-text: #ffffff;
+}
+
+/* Cyberpunk */
+[data-theme="cyberpunk"] {
+  --bg-color:pink;
+  --text-color: #ff00ff;
+  --button-bg: #ff3131;
+  --button-text: #000000;
+}
+
+/* Valentine */
+[data-theme="valentine"] {
+  --bg-color: #ffcbdb;
+  --text-color: #7b1e48;
+  --button-bg: #ff4081;
+  --button-text: #ffffff;
+}
+
+/* Halloween */
+[data-theme="halloween"] {
+  --bg-color: #2e1a47;
+  --text-color: #ff7518;
+  --button-bg: #ff4500;
+  --button-text: #ffffff;
+}
+
+/* Garden */
+[data-theme="garden"] {
+  --bg-color: #d4e157;
+  --text-color: #3c6e71;
+  --button-bg: #81c784;
+  --button-text: #ffffff;
+}
+
+/* Forest */
+[data-theme="forest"] {
+  --bg-color: #2d4a26;
+  --text-color: #b5e7a0;
+  --button-bg: #679436;
+  --button-text: #ffffff;
+}
+
+/* Aqua */
+[data-theme="aqua"] {
+  --bg-color: #e0f7fa;
+  --text-color: #00796b;
+  --button-bg: #009688;
+  --button-text: #ffffff;
+}
+
+/* Lofi */
+[data-theme="lofi"] {
+  --bg-color: #f4f4f4;
+  --text-color: #333333;
+  --button-bg: #666666;
+  --button-text: #ffffff;
+}
+
+/* Pastel */
+[data-theme="pastel"] {
+  --bg-color: #fde2e4;
+  --text-color: #6b4226;
+  --button-bg: #ffb5a7;
+  --button-text: #ffffff;
+}
+
+/* Fantasy */
+[data-theme="fantasy"] {
+  --bg-color:lavender;
+  --text-color: #f8bbd0;
+  --button-bg: plum;
+  --button-text: #ffffff;
+}
+
+/* Wireframe */
+[data-theme="wireframe"] {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --button-bg: #d3d3d3;
+  --button-text: #000000;
+}
+
+/* Black */
+[data-theme="black"] {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --button-bg: #333333;
+  --button-text: #ffffff;
+}
+
+/* Luxury */
+[data-theme="luxury"] {
+  --bg-color: #2c2c2c;
+  --text-color: #e5c100;
+  --button-bg: #b89c28;
+  --button-text: #ffffff;
+}
+
+/* Dracula */
+[data-theme="dracula"] {
+  --bg-color: #282a36;
+  --text-color: #f8f8f2;
+  --button-bg: #bd93f9;
+  --button-text: #000000;
+}
+
+/* CMYK */
+[data-theme="cmyk"] {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --button-bg: #ff00ff;
+  --button-text: #ffffff;
+}
+
+/* Autumn */
+[data-theme="autumn"] {
+  --bg-color:cadetblue;
+  --text-color: teal;
+  --button-bg: limegreen;
+  --button-text: #ffffff;
+}
+
+/* Business */
+[data-theme="business"] {
+  --bg-color: #1e293b;
+  --text-color: #e5e7eb;
+  --button-bg: #64748b;
+  --button-text: #ffffff;
+}
+
+/* Acid */
+[data-theme="acid"] {
+  --bg-color: lavenderblush;
+  --text-color: lightcoral;
+  --button-bg: salmon;
+  --button-text: #000000;
+}
+
+/* Lemonade */
+[data-theme="lemonade"] {
+  --bg-color: #fef9c3;
+  --text-color: #3b2f2f;
+  --button-bg: #ffeb3b;
+  --button-text: #000000;
+}
+
+/* Night */
+[data-theme="night"] {
+  --bg-color: #0a192f;
+  --text-color: #f8f8f8;
+  --button-bg: #112240;
+  --button-text: #ffffff;
+}
+
+/* Coffee */
+[data-theme="coffee"] {
+  --bg-color: #4b382a;
+  --text-color: #fff4e6;
+  --button-bg: #8c5e58;
+  --button-text: #ffffff;
+}
+
+/* Winter */
+[data-theme="winter"] {
+  --bg-color: #e0f2f1;
+  --text-color: #37474f;
+  --button-bg: #80cbc4;
+  --button-text: #000000;
+}
+
+/* Dim */
+[data-theme="dim"] {
+  --bg-color: #252526;
+  --text-color: wheat;
+  --button-bg: #3e3e42;
+  --button-text: #ffffff;
+}
+
+/* Nord */
+[data-theme="nord"] {
+  --bg-color: #2e3440;
+  --text-color: #d8dee9;
+  --button-bg: #5e81ac;
+  --button-text: #ffffff;
+}
+
+/* Sunset */
+[data-theme="sunset"] {
+  --bg-color: #ffadad;
+  --text-color: #660000;
+  --button-bg: #ff6347;
+  --button-text: #ffffff;
+}
+
+/* Global Transitions */
+[data-theme] {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+@keyframes pulse {
+    0% {
+      opacity: 0.6;
+    }
+    50% {
+      opacity: 1;
+
+    }
+    100% {
+      opacity: 0.6;
+    }
+  }
+  
+  .animate {
+    animation: pulse 1.5s infinite;
+  }
+
+  /* Navbar Styles */
+.navbar-custom {
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #dee2e6;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+  }
+  
+  /* Navbar Logo */
+  .navbar-logo {
+    transition: opacity 0.3s ease;
+  }
+  
+  .navbar-logo:hover {
+    opacity: 0.8;
+  }
+  
+  /* Navbar Icon */
+  .navbar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 123, 255, 0.1);
+    padding: 8px;
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .navbar-icon:hover {
+    background: rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Buttons */
+  .navbar-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    background: #dc3545 !important;
+    color: white !important;
+    border-color: #dc3545 !important;
+  }
+  
+  .logout-btn:hover {
+    background: #c82333 !important;
+    border-color: #c82333 !important;
+  }
+  
+  /* Hide text on small screens */
+  @media (max-width: 576px) {
+    .navbar-btn span {
+      display: none;
+    }
+  }
+
+  /* Page Styles */
+.container-fluid {
+    background: #f8f9fa;
+}
+
+/* Icon Container */
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 123, 255, 0.1);
+    padding: 10px;
+    border-radius: 50%;
+    transition: background 0.3s ease-in-out;
+}
+
+.icon-container:hover {
+    background: rgba(0, 123, 255, 0.2);
+}
+
+/* Password Toggle Button */
+.password-toggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.password-toggle:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Login Button */
+.login-btn {
+    font-weight: 500;
+    padding: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.login-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .icon-container {
+        padding: 8px;
+    }
+
+    .login-btn {
+        font-size: 14px;
+    }
+}
+              /* css for setting page  */
+
+/* Hover effect for theme buttons */
+.theme-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Active theme button */
+.active-theme {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+/* Custom chat bubble styles */
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.bg-primary {
+  background-color: #007bff !important;
+}
+
+/* Bounce animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.icon-bounce {
+  animation: bounce 2s infinite;
+}
+
+/* Optional: subtle hover for future icons or enhancements */
+.icon-bounce:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+/* Basic skeleton loading effect */
+.skeleton-loader {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton-loader::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150px;
+  height: 100%;
+  width: 150px;
+  background: linear-gradient(to right, transparent 0%, #f0f0f0 50%, transparent 100%);
+  animation: shimmer 1.2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -150px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.online-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+}
+.pulse {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
