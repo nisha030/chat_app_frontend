@@ -1,7 +1,7 @@
 import Navbar from './component/Navbar'
-import LogIn from './pages/LogIn'
 import Home from './pages/Home'
 import SignUp from './pages/SignUp'
+import LogIn from './pages/LogIn'
 import Settings from './pages/Settings'
 import Profile from './pages/Profile'
 import { useAuthStore } from './store/useAuthStore'
@@ -43,11 +43,11 @@ const App = () => {
       <Navbar />
       <div className="main-content">
       <Routes>
-        <Route path="/" element={authUser ? <HomePage /> : <Navigate to="/login" />} />
-        <Route path="/signup" element={!authUser ? <SignUpPage /> : <Navigate to="/" />} />
-        <Route path="/login" element={!authUser ? <LoginPage /> : <Navigate to="/" />} />
-        <Route path="/settings" element={<SettingsPage />} />
-        <Route path="/profile" element={authUser ? <ProfilePage /> : <Navigate to="/login" />} />
+        <Route path="/" element={authUser ? <Home /> : <Navigate to="/login" />} />
+        <Route path="/signup" element={!authUser ? <SignUp /> : <Navigate to="/" />} />
+        <Route path="/login" element={!authUser ? <LogIn/> : <Navigate to="/" />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/profile" element={authUser ? <Profile/> : <Navigate to="/login" />} />
       </Routes>
       </div>
       <Toaster />
