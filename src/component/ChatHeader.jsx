@@ -11,7 +11,6 @@ const ChatHeader = () => {
   return (
     <div className="p-3 border-bottom">
       <div className="d-flex align-items-center justify-content-between">
-        {/* User Info */}
         <div className="d-flex align-items-center gap-3">
           <div className="position-relative">
             <img

@@ -1,11 +1,9 @@
-
-/* Default styles */
 :root {
-  /* Default theme (light) */
-  --bg-color: #ffffff;
-  --text-color: #000000;
-  --button-bg: #007bff;
-  --button-text: #ffffff;
+  --navbar-bg-color: #ffffff;
+  --navbar-text-color: #000000;
+  --preview-bg-color: #ffffff;
+  --preview-text-color: #000000;
+  --preview-button-bg: #cccccc;
 }
 
 /* Dark Theme */
@@ -256,7 +254,6 @@
   --button-text: #ffffff;
 }
 
-/* Global Transitions */
 [data-theme] {
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
@@ -301,7 +298,6 @@ button:hover {
     animation: pulse 1.5s infinite;
   }
 
-  /* Navbar Styles */
 .navbar-custom {
     background: rgba(255, 255, 255, 0.9);
     border-bottom: 1px solid #dee2e6;
@@ -313,8 +309,7 @@ button:hover {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
   }
-  
-  /* Navbar Logo */
+
   .navbar-logo {
     transition: opacity 0.3s ease;
   }
@@ -322,8 +317,7 @@ button:hover {
   .navbar-logo:hover {
     opacity: 0.8;
   }
-  
-  /* Navbar Icon */
+
   .navbar-icon {
     display: flex;
     align-items: center;
@@ -337,8 +331,7 @@ button:hover {
   .navbar-icon:hover {
     background: rgba(0, 123, 255, 0.2);
   }
-  
-  /* Buttons */
+
   .navbar-btn {
     display: flex;
     align-items: center;
@@ -349,8 +342,7 @@ button:hover {
   .navbar-btn:hover {
     transform: scale(1.05);
   }
-  
-  /* Logout Button */
+
   .logout-btn {
     background: #dc3545 !important;
     color: white !important;
@@ -361,20 +353,17 @@ button:hover {
     background: #c82333 !important;
     border-color: #c82333 !important;
   }
-  
-  /* Hide text on small screens */
+
   @media (max-width: 576px) {
     .navbar-btn span {
       display: none;
     }
   }
 
-  /* Page Styles */
 .container-fluid {
     background: #f8f9fa;
 }
 
-/* Icon Container */
 .icon-container {
     display: flex;
     align-items: center;
@@ -389,7 +378,7 @@ button:hover {
     background: rgba(0, 123, 255, 0.2);
 }
 
-/* Password Toggle Button */
+
 .password-toggle {
     border: none;
     background: none;
@@ -421,20 +410,18 @@ button:hover {
         font-size: 14px;
     }
 }
-              /* css for setting page  */
-
-/* Hover effect for theme buttons */
+           
 .theme-btn:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* Active theme button */
+
 .active-theme {
   background-color: #007bff !important;
   color: white !important;
 }
 
-/* Custom chat bubble styles */
+
 .bg-light {
   background-color: #f8f9fa !important;
 }
@@ -443,7 +430,7 @@ button:hover {
   background-color: #007bff !important;
 }
 
-/* Bounce animation */
+
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
@@ -458,12 +445,10 @@ button:hover {
   animation: bounce 2s infinite;
 }
 
-/* Optional: subtle hover for future icons or enhancements */
 .icon-bounce:hover {
   transform: scale(1.05);
   transition: transform 0.2s ease-in-out;
 }
-/* Basic skeleton loading effect */
 .skeleton-loader {
   background-color: #e0e0e0;
   border-radius: 4px;

@@ -4,8 +4,7 @@ const AuthImagePattern = ({ title, subtitle }) => {
   return (
     <div className="d-none d-lg-flex align-items-center justify-content-center bg-light " style={{marginTop: '7rem'}}>
       <div className="text-center" style={{ maxWidth: '400px' }}>
-        
-        {/* Grid Blocks */}
+    
         <div className="d-grid mb-4" style={{ gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem' }}>
           {[...Array(9)].map((_, i) => (
             <div
@@ -15,7 +14,6 @@ const AuthImagePattern = ({ title, subtitle }) => {
           ))}
         </div>
 
-        {/* Title & Subtitle */}
         <h2 className="h4 fw-bold mb-3">{title}</h2>
         <p className="text-muted">{subtitle}</p>
       </div>

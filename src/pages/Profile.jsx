@@ -70,7 +70,7 @@ const Profile = () => {
           </div>
         </div>
 
-        {/* Account Information */}
+        {/* Account Info */}
         <div className="bg-light p-3 rounded">
           <h5 className="fw-medium">Account Information</h5>
           <div className="d-flex justify-content-between border-bottom py-2">

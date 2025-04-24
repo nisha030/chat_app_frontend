@@ -7,7 +7,6 @@ const SidebarSkeleton = () => {
   return (
     <aside className="h-100 border-end d-flex flex-column transition-all duration-200" style={{ width: '5rem' }}>
 
-      {/* Header */}
       <div className="border-bottom w-100 p-3">
         <div className="d-flex align-items-center gap-2">
           <User className="w-100" style={{ width: '1.5rem', height: '1.5rem' }} />
@@ -15,7 +14,6 @@ const SidebarSkeleton = () => {
         </div>
       </div>
 
-      {/* Contact skeletons */}
       <div className="overflow-auto w-100 py-3">
         {skeletonContacts.map((_, idx) => (
           <div key={idx} className="w-100 p-3 d-flex align-items-center gap-3">
